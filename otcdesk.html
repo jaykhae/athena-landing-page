@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover our OTC DESK - Athena Protocol</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="otcdesk.css" />
+    <link rel="stylesheet" href="otcasset.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+          document.getElementById("preloader").style.display = "none";
+      }, 3400);
+    });
+   </script>
+      
+      <style>
+        #preloader {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            background-color: #C40C0C;
+            top: 0;
+            left: 0;
+            z-index: 10000;
+            overflow: visible;
+        }
+        .preloader-logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #Path_4 {
+            animation: animateFive -2s linear 0.8s infinite  alternate;
+            animation-delay: 1.2s;
+            opacity: 0;
+        }
+        #Path_5 {
+            animation: animateOne -0.1s linear 1s  alternate;
+            animation-fill-mode: forwards;
+            animation-delay: 0.2s;
+        }
+        #Path_6 {
+            animation: animateThree -0.1s linear 1s  alternate;
+            animation-fill-mode: forwards;
+            animation-delay: 0.6s;
+        }
+        #Path_7 {
+            animation: animateTwo -0.1s linear 1s  alternate;
+            animation-fill-mode: forwards;
+            animation-delay: 0.4s;
+        }
+        #Path_8 {
+            animation: animateTwo -0.1s linear 1s  alternate;
+            animation-fill-mode: forwards;
+            animation-delay: 0.4s;
+        }
+        #Path_9 {
+            animation: animateOne -0.1s linear 1s  alternate;
+            animation-fill-mode: forwards;
+            animation-delay: 0.2s;
+        }
+        #Path_10 {
+            animation: animateThree -0.1s linear 1s  alternate;
+            animation-fill-mode: forwards;
+            animation-delay: 0.6s;
+        }
+        #Path_11 {
+            animation: animateTwo -0.1s linear 1s  alternate;
+            animation-fill-mode: forwards;
+            animation-delay: 0.9s;
+        }
+  
+        @keyframes animateOne {
+            0% {
+                opacity: 0;
+                fill: none;
+                animation: ease-in;
+            }
+            100% {
+                opacity: 1;
+                fill: #fff;
+            }
+        }
+        @keyframes animateTwo {
+            0% {
+                opacity: 0;
+                fill: none;
+            }
+            100% {
+                opacity: 1;
+                fill: #fff;
+            }
+        }
+        @keyframes animateThree {
+            0% {
+                opacity: 0;
+                fill: none;
+            }
+            100% {
+                opacity: 1;
+                fill: #fff;
+            }
+        }
+        @keyframes animateFour {
+            0% {
+                opacity: 0;
+                fill: none;
+            }
+            100% {
+                opacity: 1;
+                fill: #fff;
+            }
+        }
+        @keyframes animateFive {
+            0% {
+                opacity: 0;
+                fill: none;
+            }
+            100% {
+                opacity: 1;
+                fill: #fff;
+            }
+        }
+        
+    </style>
+  </head>
+  <body>
+
+    <body>
+      <div id="preloader">
+        <div class="preloader-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 287.235 335.585">
+                <g id="Layer_5" data-name="Layer 5" transform="translate(-260.799 -359.505)">
+                  <path id="Path_4" data-name="Path 4" d="M468.952,404.578l2.87-1.636,76.212-43.437L537.79,400.07l-26.634,52.038L500.5,463.991l-75.394,40.155-13.932,9.834H391.1l-8.6,24.175,5.736-2.458,6.146-14.341,12.292.41L388.231,564.79,350.944,579.95l-6.966,6.966,21.307,4.1-7.785-8.2,29.092-10.244-8.2,26.634-6.556,18.029-7.785,14.751-9.014,15.161-8.6,12.292-11.883,12.292L319.8,681.159,305.871,690l-14.751,5.09h-6.556l9.424-7.785-14.341-2.049-12.7-5.327-6.146-6.966h16.8l-11.063-11.473L260.8,643.052l12.292,13.112,13.112,5.327,11.473-2.868,12.7-17.209,10.654-27.453,6.146-26.224,7.785-27.863L341.929,540l10.653-19.463,6.556-4.917,19.258-2.049,4.1-2.868,13.931-24.175L387,491.035l-12.7,17.619L359.139,510.7l2.049-8.6,8.6-14.751,15.57-19.258L404,451.289l19.47-15.161,39.746-24.995L458.3,433.26l-2.868,15.57v19.258l18.848-27.863-12.7,4.507Z" fill="#fff"/>
+                  <path id="Path_5" data-name="Path 5" d="M343.159,693.041l17.209-33.6L378.4,663.13l-5.327,29.912Z" fill="#fff"/>
+                  <path id="Path_6" data-name="Path 6" d="M406.26,693.041h-29.5l5.327-31.551-21.307-4.917,7.785-17.619,21.717,2.868,14.136-24.175-22.741-6.556,10.244-17.21,51.219,10.654-18.029,28.273L412,659.442Z" fill="#fff"/>
+                  <path id="Path_7" data-name="Path 7" d="M370.612,635.676l18.029,2.868,10.654-18.029-20.9-5.327Z" fill="#fff"/>
+                  <path id="Path_8" data-name="Path 8" d="M466.493,605.765,474.279,641l48.76-12.292-7.785-32.37-7.375,6.146-7.785,2.868Z" fill="#fff"/>
+                  <path id="Path_9" data-name="Path 9" d="M487.8,641l9.834,49,48.76,3.041-10.244-38.516-13.112-22.536Z" fill="#fff"/>
+                  <path id="Path_10" data-name="Path 10" d="M484.113,643.462,475.1,645.51l1.639,13.932,2.868,24.585,11.473,3.278Z" fill="#fff"/>
+                  <path id="Path_11" data-name="Path 11" d="M395.607,588.965l-2.049-17.619,19.668-49.58,9.424-10.654,80.311-41.385,14.136,97.93L496.405,555.5l10.244-2.593L500.093,527l-33.6,6.239V524l-11.166,3v14.844l30.014-4.507,9.424,45.482,6.966-15.161,13.522,4.917-.82,16.39L502.961,598.8l-8.2,2.458H466.493l-40.565-4.917Z" fill="#fff"/>
+                </g>
+              </svg>
+        </div>
+    </div>
+
+
+    <div class="container">
+      <div class="navbar">
+        <a href="index.html"><div class="site-logo"></div></a>
+        <div class="menu-toggle">
+          <a href="https://wa.me/message/EWBWFSBWO2HGD1"><div class="menu-btn">Whatsapp</div></a>
+          <a href="https://t.me/athena_protocol"><div class="menu-btn">Telegram</div></a>
+          <div id="menu-toggle-btn">
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="hero1-pc">
+        <div class="header">
+          <div style="color: rgb(255, 255, 255);">DISCOVER<br /></div> <div style="color: rgb(255, 255, 255);">OUR<br /></div>
+          OTC DESK!
+        </div>
+        <div class="header-sub"> Unlock round the clock trading for all your digital assets!<br /> Buy or Sell assets directly with a live Athena Agent.</div>
+        <div class="header-sub-term">Athena is a p2p digital asset protocol, <b>NOT</b> a crypto exchange. Solutions are provided by Athena Labs and <br />partner(s).  OTC Desk is issued by Athena Labs. We are <b>NOT</b> partnered or have any affliation with <br />any listed digital asset. Digital assets trading rates and orders are influenced by the <b>FREE MARKET</b> .</div>
+      </div>
+
+
+
+      <div class="hero1-mobile">
+        <div class="header">
+          <div style="color: rgb(255, 255, 255);">DISCOVER OUR<br /></div>
+          OTC DESK!
+        </div>
+        <div class="header-sub"> Unlock round the clock trading for all your digital assets! Buy or Sell assets directly with a live Athena Agent.</div>
+        <div class="otcmobilechannel"><a href="https://wa.me/message/EWBWFSBWO2HGD1"><div class="hero1-mobile-btn">Whatsapp</div></a>
+        <a href="https://t.me/athena_protocol"><div class="hero1-mobile-btn">Telegram</div></a></div>
+        <div class="header-sub-term">Athena is a p2p digital asset protocol, NOT a crypto exchange. Solutions are provided by Athena Labs and partner(s).  OTC Desk is issued by Athena Labs. We are NOT partnered or have any affliation with any listed digital asset. Digital assets trading rates and orders are influenced by the FREE MARKET.</div>
+      </div>
+      <div class="asset-1"></div>
+      <div class="asset-2"></div>
+      <div class="asset-3"></div>
+
+      <div class="hero2-pc">
+        <div class="header">
+          <div style="color: rgb(255, 255, 255);">24/7 TRADE<br /></div> <div style="color: rgb(255, 255, 255);">WITH<br /></div>
+          LIVE AGENT!
+        </div>
+        <div class="header-sub"> Trade Anytime, Day or Night, with a Live Agent Available 24/7!</div>
+        <div class="header-sub-term">Athena is a p2p digital asset protocol, <b>NOT</b> a crypto exchange. Solutions are provided by Athena Labs and <br />partner(s).  OTC Desk is issued by Athena Labs. We are <b>NOT</b> partnered or have any affliation with <br />any listed digital asset. Digital assets trading rates and orders are influenced by the <b>FREE MARKET</b> .</div>
+      </div>
+
+
+
+      <div class="hero2-mobile">
+        <div class="header">
+          <div style="color: rgb(255, 255, 255);">24/7 TRADE WITH<br /></div>
+          LIVE AGENT!
+        </div>
+        <div class="header-sub"> Trade Anytime, Day or Night, with a Live Agent Available 24/7!</div>
+        <div class="otcmobilechannel"><a href="https://wa.me/message/EWBWFSBWO2HGD1"><div class="hero1-mobile-btn">Whatsapp</div></a>
+        <a href="https://t.me/athena_protocol"><div class="hero1-mobile-btn">Telegram</div></a></div>
+        <div class="header-sub-term">Athena is a p2p digital asset protocol, NOT a crypto exchange. Solutions are provided by Athena Labs and partner(s).  OTC Desk is issued by Athena Labs. We are NOT partnered or have any affliation with any listed digital asset. Digital assets trading rates and orders are influenced by the FREE MARKET.</div>
+      </div>
+      
+      
+      <div id="nav-container">
+        <div class="nav-pc">
+        <div class="nav">
+          <div class="col flex">
+            <div class="nav-logo">Maximize your digital assets.</div>
+            <div class="nav-socials">
+              <div class="crypto-giftcard-efund">
+              <a href="#">
+                <div class="nav-card">
+                  <div class="nav-img-crypto"></div>
+                  <div style="font-size: 1.2em; font-weight: 600;"> Crypto</div>
+                  <div style="font-size: 0.6em; font-weight: 600; color: lightgrey;"> Buy or sell crypto easy and fast</div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="nav-card">
+                  <div class="nav-img-giftcard"></div>
+                  <div style="font-size: 1.2em; font-weight: 600;"> Giftcard</div>
+                  <div style="font-size: 0.6em; font-weight: 600; color: lightgrey;"> Redeem valid cards for fiat or crypto</div>
+                </div>
+              </a>
+
+              <a href="marketplace.html">
+                <div class="nav-card">
+                  <div class="nav-img-efund"></div>
+                  <div style="font-size: 1.2em; font-weight: 600;"> Marketplace</div>
+                  <div style="font-size: 0.6em; font-weight: 600; color: lightgrey;"> Explore Virtual Asset Market</div>
+                </div>
+              </a>
+             </div>
+             <div class="crypto-giftcard-efund">
+
+              <a href="otcdesk.html">
+                <div class="nav-card">
+                  <div class="nav-img-otc"></div>
+                  <div style="font-size: 1.2em; font-weight: 600;"> OTC Desk</div>
+                  <div style="font-size: 0.6em; font-weight: 600; color: lightgrey;"> Trade specific or unlisted assets</div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="nav-card">
+                  <div class="nav-img-privacy"></div>
+                  <div style="font-size: 1.2em; font-weight: 600;"> Privacy</div>
+                  <div style="font-size: 0.6em; font-weight: 600; color: lightgrey;"> 100% end-to-end encryption </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="nav-card">
+                  <div class="nav-img-security"></div>
+                  <div style="font-size: 1.2em; font-weight: 600;"> Security</div>
+                  <div style="font-size: 0.6em; font-weight: 600; color: lightgrey;">Learn how we protect your assets </div>
+                </div>
+              </a>
+
+            </div>
+            </div>
+          </div>
+          <div class="nav-row">
+            <div class="nav-col">
+            <div class="nav-link">
+              <div>Resources</div>
+            </div>
+            <div class="nav-link">
+              <a href="#">E-Wallet</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Merchant</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Developer</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Enterprise</a>
+            </div>
+          </div>
+
+          <div class="nav-col">
+            <div class="nav-link">
+              <div>More</div>
+            </div>
+            <div class="nav-link">
+              <a href="help.html">Support</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Status</a>
+            </div>
+            <div class="nav-link">
+              <a href="legal.html">Legal</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Blog</a>
+            </div>
+          </div>
+
+
+          <div class="nav-col">
+            
+            <div class="nav-link">
+                <div>Keep in Touch</div>
+                <div class="social-links">
+                    <a href="https://wa.me/message/EWBWFSBWO2HGD1"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://t.me/athena_protocol"><i class="fa-brands fa-telegram"></i></a>
+                    <br>
+                    <a href="https://www.instagram.com/athenaprotocol"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/myathena_app"><i class="fa-brands fa-x-twitter"></i></a>
+                    <br>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/@AthenaProtocol"><i class="fa-brands fa-youtube"></i></a>
+                   
+                </div>
+
+
+                <div class="nav-contact">Contact Us</div>
+                <div class="social-links">Email <a href="mailto:info@athena.ng">info@athena.ng</a></div>
+                <div class="social-links">Phone <a href="tel:+2348105743847">+2348105743847</a></div>
+            </div>
+          </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="nav-mobile">
+        <div class="nav">
+          <div class="col flex">
+            <div class="nav-logo">Maximize your digital assets.</div>
+            <div class="nav-socials">
+              <div class="crypto-giftcard-efund">
+              <a href="#">
+                <div class="nav-card">
+                  <div class="nav-img-crypto"></div>
+                  <div style="font-size: 1.2em; font-weight: 600;"> Crypto</div>
+                  <div style="font-size: 0.6em; font-weight: 600; color: lightgrey;"> Buy or sell crypto easy and fast</div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="nav-card">
+                  <div class="nav-img-giftcard"></div>
+                  <div style="font-size: 1.2em; font-weight: 600;"> Giftcard</div>
+                  <div style="font-size: 0.6em; font-weight: 600; color: lightgrey;"> Redeem valid cards for fiat or crypto</div>
+                </div>
+              </a>
+             </div>
+
+             <div class="crypto-giftcard-efund">
+
+              <a href="marketplace.html">
+                <div class="nav-card">
+                  <div class="nav-img-efund"></div>
+                  <div style="font-size: 1.2em; font-weight: 600;"> Marketplace</div>
+                  <div style="font-size: 0.6em; font-weight: 600; color: lightgrey;"> Explore Virtual Asset Market</div>
+                </div>
+              </a>
+
+              <a href="otcdesk.html">
+                <div class="nav-card">
+                  <div class="nav-img-otc"></div>
+                  <div style="font-size: 1.2em; font-weight: 600;"> OTC Desk</div>
+                  <div style="font-size: 0.6em; font-weight: 600; color: lightgrey;"> Trade specific or unlisted assets</div>
+                </div>
+              </a>
+
+            </div>
+            
+            <div class="crypto-giftcard-efund">
+              
+              <a href="#">
+                <div class="nav-card">
+                  <div class="nav-img-privacy"></div>
+                  <div style="font-size: 1.2em; font-weight: 600;"> Privacy</div>
+                  <div style="font-size: 0.6em; font-weight: 600; color: lightgrey;"> 100% end-to-end encryption</div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="nav-card">
+                  <div class="nav-img-security"></div>
+                  <div style="font-size: 1.2em; font-weight: 600;"> Security</div>
+                  <div style="font-size: 0.6em; font-weight: 600; color: lightgrey;">Learn how we protect your assets</div>
+                </div>
+              </a>
+
+            </div>
+
+            </div>
+          </div>
+          <div class="nav-row">
+            <div class="nav-col">
+            <div class="nav-link">
+              <div>Resources</div>
+            </div>
+            <div class="nav-link">
+              <a href="#">E-Wallet</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Merchant</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Developer</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Enterprise</a>
+            </div>
+          </div>
+
+          <div class="nav-col">
+            <div class="nav-link">
+              <div>More</div>
+            </div>
+            <div class="nav-link">
+              <a href="help.html">Support</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Status</a>
+            </div>
+            <div class="nav-link">
+              <a href="legal.html">Legal</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Enterprise</a>
+            </div>
+          </div>
+          </div>
+
+          <div class="foot-col">
+            
+            <div class="nav-link">
+                <div class="foot-card">
+                <div>Keep in Touch</div>
+                <div class="social-links">
+                    <a href="https://wa.me/message/EWBWFSBWO2HGD1"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://t.me/athena_protocol"><i class="fa-brands fa-telegram"></i></a>
+                    <br>
+                    <a href="https://www.instagram.com/athenaprotocol"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/myathena_app"><i class="fa-brands fa-x-twitter"></i></a>
+                    <br>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/@AthenaProtocol"><i class="fa-brands fa-youtube"></i></a>
+                   
+                </div></div>
+
+                <div class="foot-card">
+                <div class="nav-contact">Contact Us</div>
+                <div class="social-links">Email <a href="mailto:info@athena.ng">info@athena.ng</a></div>
+                <div class="social-links">Phone <a href="tel:+2348105743847">+2348105743847</a></div></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+    <div class="svg-footer">
+
+
+
+      <div class="at-foot">Athena © 2024<br>All Rights Reserved - Artemis Technologies</div>
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+        <defs>
+            <linearGradient id="bg">
+                <stop offset="0%" style="stop-color:rgba(202, 13, 13, 0.56)"></stop>
+                <stop offset="50%" style="stop-color:rgba(209, 17, 17, 0.674)"></stop>
+                <stop offset="100%" style="stop-color:rgba(159, 23, 23, 0.727)"></stop>
+            </linearGradient>
+            <path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+            s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+        </defs>
+        <g>
+            <use xlink:href='#wave' opacity=".3">
+                <animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="10s"
+          calcMode="spline"
+          values="270 230; -334 180; 270 230"
+          keyTimes="0; .5; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+            </use>
+            <use xlink:href='#wave' opacity=".6">
+                <animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="8s"
+          calcMode="spline"
+          values="-270 230;243 220;-270 230"
+          keyTimes="0; .6; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+            </use>
+            <use xlink:href='#wave' opacty=".9">
+                <animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="6s"
+          calcMode="spline"
+          values="0 230;-140 200;0 230"
+          keyTimes="0; .4; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+            </use>
+        </g>
+    </svg>
+    
+  </div>
+  <div class="link-footer">
+    
+    <div class="link-footer-col-1">
+      <div style="font-family: 'Clash Display', sans-serif;"> Maximize your digital assets </div>
+    </div>
+
+    <div class="link-footer-col-2">
+
+      <div class="link-footer-col-2-sub-1">
+
+        <div class="foot-more-links">
+          <div class="foot-more-links-content">Resources</div>
+          <div class="foot-more-links-content"><a href="help.html">Support</a></div>
+          <div class="foot-more-links-content"><a href="#">Status</a></div>
+          <div class="foot-more-links-content"><a href="legal.html">Legal</a></div>
+          <div class="foot-more-links-content"><a href="#">Blog</a></div>
+        </div>
+
+        <div class="foot-more-links">
+          <div class="foot-more-links-content">Keep in Touch</div>
+          <div class="foot-kit-row">
+            <a href="https://wa.me/message/EWBWFSBWO2HGD1"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://t.me/athena_protocol"><i class="fa-brands fa-telegram"></i></a>
+          </div>
+
+          <div class="foot-kit-row">
+            <a href="https://www.instagram.com/athenaprotocol"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/myathena_app"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+
+          <div class="foot-kit-row">
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@AthenaProtocol"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="foot-more-links">
+          <div class="foot-more-links-content">Contact Us</div>
+         <div class="foot-more-links-content">Email: <a href="mailto:info@athena.ng">info@athena.ng</a></div>
+         <div class="foot-more-links-content">Phone: <a href="tel:+2348105743847">+2348105743847</a></div>
+        </div>
+
+
+
+
+      </div>
+
+      <div class="link-footer-col-2-sub-2">
+
+        <div class="link-footer-col-2-sub-2-mini-1">
+          Athena is a p2p digital asset protocol, NOT a crypto exchange. Solutions are provided by Athena Labs and partner(s).
+        </div>
+  
+        <div class="link-footer-col-2-sub-2-mini-1">
+          We are NOT partnered or have any affliation with any listed digital asset. Digital assets trading rates and orders are <br>influenced by the FREE MARKET.<br>
+        </div>
+
+        <div class="link-footer-col-2-sub-2-mini-1">
+          OTC Desk is issued by Athena Labs. 
+        </div>
+
+        <div class="link-footer-col-2-sub-2-mini-1">
+          Marketplace is issued by Athena Labs. 
+        </div>
+
+        <div class="link-footer-col-2-sub-2-mini-1">
+          E-wallet is issued by Artemis Technologies. 
+        </div>
+
+        <div class="link-footer-col-2-sub-2-mini-1">
+          Merchant program is managed by Athena Labs. 
+        </div>
+
+
+        <div class="link-footer-col-2-sub-2-mini-1">
+          By utilizing our services or products, you hereby agree to be bound by our Terms and Conditions.
+        </div>
+       
+      </div>
+
+    </div>
+
+  </div>
+  </body>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+
+    function openNav() {
+      animateOpenNav();
+      const navBtn = document.getElementById("menu-toggle-btn");
+      navBtn.onclick = function (e) {
+        navBtn.classList.toggle("active");
+        tl.reversed(!tl.reversed());
+      };
+    }
+
+    openNav();
+
+    function animateOpenNav() {
+      tl.to("#nav-container", 0.2, {
+        autoAlpha: 1,
+        delay: 0.1,
+      });
+
+      tl.to(
+        ".site-logo",
+        0.2,
+        {
+          color: "#fff",
+        },
+        "-=0.1"
+      );
+
+      tl.from(".flex > div", 0.4, {
+        opacity: 0,
+        y: 10,
+        stagger: {
+          amount: 0.04,
+        },
+      });
+
+      tl.from(
+        ".nav-link > div",
+        0.8,
+        {
+          opacity: 0,
+          top: 0,
+          ease: "power2.inOut",
+          stagger: {
+            amount: 0.1,
+          },
+        },
+        "-=0.4"
+      );
+
+      tl.from(
+        ".nav-link > a",
+        0.8,
+        {
+          opacity: 0,
+          top: 0,
+          ease: "power2.inOut",
+          stagger: {
+            amount: 0.1,
+          },
+        },
+        "-=0.4"
+      );
+
+      tl.from(
+        ".nav-footer",
+        0.3,
+        {
+          opacity: 0,
+        },
+        "-=0.5"
+      ).reverse();
+    }
+  </script>
+</html>

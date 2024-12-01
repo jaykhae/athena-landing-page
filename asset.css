@@ -1,0 +1,506 @@
+.asset-1 {
+    background-image: url(asset1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    width: 800px;
+    position: absolute;
+    left: 0; 
+    right: 40%; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(-40px);
+}
+
+.asset-2 {
+    background-image: url(asset2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(-180px);
+    z-index: 0;
+}
+
+.asset-3 {
+    background-image: url(asset3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    width: 800px;
+    position: absolute;
+    left: 0; 
+    right: -60%; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(-330px);
+}
+
+.asset-4 {
+    background-image: url(asset4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1100px;
+    width: 900px;
+    position: absolute;
+    left: 0; 
+    right: -70%; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(-470px);
+}
+
+.asset-5 {
+    background-image: url(asset5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    left: -12%; 
+    right: 130%; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(30px);
+}
+
+.asset-6 {
+    background-image: url(asset6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: -12%;
+    right: 35%; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(450px);
+}
+
+.asset-7 {
+    background-image: url(asset7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: -12%;
+    right: -35%; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(410px);
+}
+
+.asset-8 {
+    background-image: url(asset8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
+    width: 650px;
+    position: absolute;
+    left: -12%;
+    right: -55%; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(200px);
+    bottom: 30%;
+}
+
+.asset-9 {
+    background-image: url(asset9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    left: -12%;
+    right: -65%; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(-250px);
+    bottom: 30%;
+}
+
+.asset-10 {
+    background-image: url(asset10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 550px;
+    width: 550px;
+    position: absolute;
+    left: -82%;
+    right: -5%; 
+    margin-left: auto; 
+    margin-right: auto;
+    bottom: 47%;
+    transform: translateY(170px);
+}
+
+.asset-11 {
+    background-image: url(asset11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
+    width: 650px;
+    position: absolute;
+    left: -32%;
+    right: -5%; 
+    bottom: 47%;
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(-100px);
+}
+
+.asset-12 {
+    background-image: url(asset12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 260px;
+    width: 260px;
+    position: absolute;
+    left: -2%;
+    right: -70%; 
+    bottom: 20%;
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(-170px);
+}
+
+.asset-13 {
+    background-image: url(asset13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 760px;
+    width: 760px;
+    position: absolute;
+    left: -2%;
+    right: -40%; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(-250px);
+}
+
+.asset-14 {
+    background-image: url(asset14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 760px;
+    width: 760px;
+    position: absolute;
+    left: -2%;
+    right: -10%; 
+    bottom: 80%;
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(-200px);
+}
+
+.asset-15 {
+    background-image: url(asset15.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 960px;
+    width: 960px;
+    position: absolute;
+    left: -30%;
+    top: 80%;
+    right: -10%; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(90px);
+
+}
+
+.asset-16 {
+    background-image: url(asset16.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1000px;
+    width: 1560px;
+    position: absolute;
+    left: -0%;
+    right: 0%; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform: translateY(100px);
+    display: flex;
+    opacity: 0.7;
+}
+
+@media (max-width: 480px) {
+
+    .asset-1 {
+        background-image: url(asset1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        left: 10%; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(400px);
+        top: 55%;
+    }
+    
+    .asset-2 {
+        background-image: url(asset2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        width: 500px;
+        position: absolute;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(300px);
+    }
+
+    .asset-3 {
+        background-image: url(asset3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(-40px);
+    }
+
+    .asset-4 {
+        background-image: url(asset4.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 800px;
+        width: 300px;
+        position: absolute;
+        left: 0; 
+        right: -70%; 
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(-60%);
+        top: 83%;
+    }
+    
+    .asset-5 {
+        background-image: url(asset5.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        left: -35%; 
+        right: 130%; 
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(290px);
+        top: 60%;
+    }
+    
+    .asset-6 {
+        background-image: url(asset6.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        left: -12%;
+        right: 35%; 
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(150px);
+        top: 60%;
+    }
+    
+    .asset-7 {
+        background-image: url(asset7.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        left: -12%;
+        right: -35%; 
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(90px);
+        top: 60%;
+    }
+    
+    .asset-8 {
+        background-image: url(asset8.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 450px;
+        width: 450px;
+        position: absolute;
+        left: -12%;
+        right: -55%;
+        bottom: 25%;
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(400px);
+    }
+    
+    .asset-9 {
+        background-image: url(asset9.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 270px;
+        width: 270px;
+        position: absolute;
+        left: -12%;
+        right: -30%; 
+        top: 75%;
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(200px);
+    }
+    
+    .asset-10 {
+        background-image: url(asset10.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 450px;
+        width: 450px;
+        position: absolute;
+        left: -82%;
+        right: -5%; 
+        bottom: 30%;
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(400px);
+    }
+    
+    .asset-11 {
+        background-image: url(asset11.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 450px;
+        width: 450px;
+        position: absolute;
+        left: -12%;
+        right: -5%; 
+        top: 35%;
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(0px);
+    }
+    
+    .asset-12 {
+        background-image: url(asset12.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        left: -2%;
+        right: -20%; 
+        bottom: 10%;
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(450px);
+    }
+
+    .asset-13 {
+        background-image: url(asset13.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 500px;
+        width: 590px;
+        position: absolute;
+        left: -40%;
+        right: -40%;
+        bottom: 0;
+        top: 80%;
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(-10px);
+    }
+    
+    .asset-14 {
+        background-image: url(asset14.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        left: -2%;
+        right: -5%; 
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(100px);
+    }
+    
+    .asset-15 {
+        background-image: url(asset15.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 460px;
+        width: 460px;
+        position: absolute;
+        left: -10%;
+        right: -20%; 
+        top: 110%;
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(340px);
+    }
+
+    .asset-16 {
+        background-image: url(asset16.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 1460px;
+        width: 1460px;
+        position: absolute;
+        left: 0%;
+        right: 0%; 
+        margin-left: auto; 
+        margin-right: auto;
+        transform: translateY(300px);
+    }
+}
